@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git ''
+                git 'https://github.com/sri21-3/health_checks.git'
             }
         }
         stage('Install Dependencies') {
